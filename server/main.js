@@ -1,11 +1,11 @@
 import { Meteor } from 'meteor/meteor';
-import { Posts } from '../imports/api/post.js';
+import { Ingredients } from '../imports/api/ingredient.js';
 
 Meteor.startup(() => {
 
 });
 
-let seedPosts = () => {
+let seedIngredients = () => {
   return [
     
   ]
